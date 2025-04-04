@@ -21,3 +21,20 @@ class DatabaseSeeder extends Seeder
         ]);
     }
 }
+
+/*'nombres' => 'Admin',
+'apellidos' => 'Principal',
+'teléfono' => '999999999',
+'email' => 'admin@example.com',
+'foto' => null,
+'password' => Hash::make('password'),
+'rol_id' => 1, //Administrador
+
+  User::factory()->count(3)->create([
+            'rol_id' => 2, //Consultores
+        ]);
+
+        User::factory()->count(10)->create([
+            'rol_id' => 3, //Usuarios Comunes
+        ]);*/
+        
